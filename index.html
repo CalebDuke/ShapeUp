@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+
+
+
+    <!-- Rectangle: Inputs for width and height, and an insert button
+Square: Input for side length and an insert button
+Circle: Input for radius and an insert button
+Isoceles Right Triangle: Input for height and an insert button -->
+    <div class="shapeInput">
+        <label id="rectangle">Rectangle</label><input id="recHeight" type="text" placeholder="Height"><input
+            id="recWidth" type="text" placeholder="Width"><button class="recBtn" type="button">+</button>
+        <br>
+        <label id="square">Square</label><input id="sqrSide" type="text" placeholder="Side Length"><button
+            class="sqrBtn" type="button">+</button>
+        <br>
+        <label id="circle">Circle</label><input id="circleRadius" type="text" placeholder="Radius"><button class="circleBtn"
+            type="button">+</button>
+        <br>
+        <label id="triangle">Triangle</label><input id="triHeight" type="text" placeholder="Height"><button class="trBtn"
+            type="button">+</button>
+    </div>
+
+    <div id="container">
+
+    </div>
+
+
+
+
+    <div id="sideNav">
+
+        <input placeHolder="Width" type="text" id="width" name="width"><br><br>
+        <input placeholder="Height" type="text" id="height" name="height"><br><br>
+        <input placeholder="Radius" type="text" id="radius" name="lname"><br><br>
+        <input placeholder="Area" type="text" id="area" name="area"><br><br>
+        <input placeholder="Perimeter" type="text" id="perimeter" name="perimeter"><br><br>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
