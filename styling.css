@@ -1,7 +1,8 @@
 #container{
+  position: relative;
     width: 600px;
     height: 600px;
-    background-color: rgb(30, 112, 34);
+    background-color: rgb(233, 240, 234);
     float: left;
 }
 
@@ -13,19 +14,28 @@
 
 }
 
-.shapeInput{
-    position: ;
-
+.rectangle {
+  position: absolute
 }
 
+.square {
+  position: absolute;
+}
 
-/* #square {
+/* .shapeInput{
+    position: ;
+
+} */
+
+
+
+/* .printSq{
     width: 100px;
     height: 100px;
     background: red;
-  }
+  } */
 
-  #rectangle {
+  /* #rectangle {
     width: 200px;
     height: 100px;
     background: red;

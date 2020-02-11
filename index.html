@@ -20,19 +20,19 @@ Circle: Input for radius and an insert button
 Isoceles Right Triangle: Input for height and an insert button -->
     <div class="shapeInput">
         <label id="rectangle">Rectangle</label><input id="recHeight" type="text" placeholder="Height"><input
-            id="recWidth" type="text" placeholder="Width"><button class="recBtn" type="button">+</button>
+            id="recWidth" type="text" placeholder="Width"><button type="submit"  class="recBtn btn-success" type="button">+</button>
         <br>
         <label id="square">Square</label><input id="sqrSide" type="text" placeholder="Side Length"><button
-            class="sqrBtn" type="button">+</button>
+            class="sqrBtn btn-success" type="button">+</button>
         <br>
-        <label id="circle">Circle</label><input id="circleRadius" type="text" placeholder="Radius"><button class="circleBtn"
+        <label id="circle">Circle</label><input id="circleRadius" type="text" placeholder="Radius"><button class="circleBtn btn-success"
             type="button">+</button>
         <br>
-        <label id="triangle">Triangle</label><input id="triHeight" type="text" placeholder="Height"><button class="trBtn"
+        <label id="triangle">Triangle</label><input id="triHeight" type="text" placeholder="Height"><button class="trBtn btn-success"
             type="button">+</button>
     </div>
 
-    <div id="container">
+    <div id="container" class="printSq ">
 
     </div>
 
@@ -41,16 +41,16 @@ Isoceles Right Triangle: Input for height and an insert button -->
 
     <div id="sideNav">
 
-        <input placeHolder="Width" type="text" id="width" name="width"><br><br>
-        <input placeholder="Height" type="text" id="height" name="height"><br><br>
-        <input placeholder="Radius" type="text" id="radius" name="lname"><br><br>
-        <input placeholder="Area" type="text" id="area" name="area"><br><br>
-        <input placeholder="Perimeter" type="text" id="perimeter" name="perimeter"><br><br>
+        <input placeHolder="Width" type="text" id="width" name="width" readonly><label id="rectangle">Width</label><br><br>
+        <input placeholder="Height" type="text" id="height" name="height" readonly><label id="rectangle">Height</label><br><br>
+        <input placeholder="Radius" type="text" id="radius" name="lname" readonly><label id="rectangle">Radius</label><br><br>
+        <input placeholder="Area" type="text" id="area" name="area" readonly><label id="rectangle">Area</label><br><br>
+        <input placeholder="Perimeter" type="text" id="perimeter" name="perimeter" readonly><label id="rectangle">Perimeter</label><br><br>
 
     </div>
 
 
-
+<script src="script.js" ></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
