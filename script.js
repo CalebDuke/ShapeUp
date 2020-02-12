@@ -50,7 +50,8 @@ class Rec extends Shape {
         this.shape.style.backgroundColor = 'green';
         container.appendChild(this.shape)
         this.shape.addEventListener('dblclick', () => {
-            this.shape.remove('rectangle')
+        this.shape.remove('rectangle')
+        this.remove(`$`)
         })
     }
     
@@ -100,10 +101,11 @@ recBtn[0].addEventListener('click', function () {
     heightSideBar.value = recHeightInput.value;
     widthSideBar.value = recWidthInput.value;
     areaSideBar.value = rHE * rWI;
-    perimeterSideBar.value = rHE.value + rWI.value
+    perimeterSideBar.value = parseInt(rHE) * 2 + parseInt(rWI) * 2
  })
 
-    // 
+ 
+
 
 
 
